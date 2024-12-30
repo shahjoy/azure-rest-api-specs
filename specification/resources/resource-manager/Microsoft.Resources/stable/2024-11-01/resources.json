@@ -5606,8 +5606,7 @@
         },
         "managedBy": {
           "type": "string",
-          "description": "ID of the resource that manages this resource. This field is immutable once set.",
-          "x-ms-mutability": ["create"]
+          "description": "ID of the resource that manages this resource. This field is immutable once set."
         },
         "sku": {
           "$ref": "#/definitions/Sku",
