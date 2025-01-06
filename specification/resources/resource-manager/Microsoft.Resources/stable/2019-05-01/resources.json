@@ -3402,7 +3402,9 @@
         "managedBy": {
           "type": "string",
           "description": "The ID of the resource that manages this resource group. This field is immutable once set.",
-          "x-ms-mutability": ["create"]
+          "x-ms-mutability": [
+            "create"
+          ]
         },
         "tags": {
           "type": "object",
