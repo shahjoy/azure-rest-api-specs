@@ -1768,6 +1768,12 @@
                 "webapi",
                 "genevametrics"
             ]
+        },
+        {
+            "filename": "**/specification/resources/resource-manager/sdk-suppressions.yaml",
+            "words": [
+                "armpolicy"
+            ]
         }
     ],
     "enableFiletypes": [
