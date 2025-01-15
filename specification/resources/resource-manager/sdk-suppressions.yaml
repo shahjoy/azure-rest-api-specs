@@ -107,3 +107,8 @@ suppressions:
         - Removed Enum KnownExemptionCategory
         - Removed operation group DataPolicyManifests
         - Removed operation group PolicyExemptions
+  azure-sdk-for-python:
+    - package: azure-mgmt-resource
+      breaking-changes:
+        - Model ResourceGroupPatchable no longer has parameter managed_by
+    
